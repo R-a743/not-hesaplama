@@ -76,13 +76,14 @@ Sınava girmedi	F2	Kaldı	Sınava katılmadı
 
 
 
-
-│
 DOSYA YAPISI
 ├── index.html       # Ana HTML sayfası (form ve sonuç alanı)
 ├── style.css        # Arayüz ve responsive tasarım dosyası
 ├── script.js        # Hesaplama mantığı (JavaScript)
 └── README.md        # Proje açıklaması
+
+
+
 
 🧰 Teknolojiler
 Teknoloji	Açıklama
@@ -94,7 +95,7 @@ Teknoloji	Açıklama
 
 
 
-🧑‍💻 #-geliştirici
+🧑‍💻Geliştirici
 Geliştirici: R-a743
 Proje Adı: KBÜ Not Hesaplayıcı
 Canlı Demo: https://r-a743.github.io/not-hesaplama/
