@@ -74,7 +74,12 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-not-hesaplama/ <-- Proje kök dizini
+## 📂 Dosya Yapısı
+
+<details>
+  <summary>Klasör ve Dosyalar</summary>
+
+not-hesaplama/ 
 │
 ├─ index.html <-- Ana HTML dosyası, kullanıcı arayüzü burada
 ├─ style.css <-- Sayfa tasarımı ve stil ayarları
