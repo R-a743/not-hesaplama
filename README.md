@@ -74,14 +74,13 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-- [Dosya Yapısı](#-dosya-yapısı)
-
 not-hesaplama/
 │
 ├── index.html       # Ana HTML sayfası (form ve sonuç alanı)
 ├── style.css        # Arayüz ve responsive tasarım dosyası
 ├── script.js        # Hesaplama mantığı (JavaScript)
 └── README.md        # Proje açıklaması
+
 
 
 
