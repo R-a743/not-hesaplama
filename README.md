@@ -77,7 +77,7 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-### Açıklamalar:
+### Dosya Yapısı:
 
 - **index.html**: Kullanıcı arayüzü ve form elemanlarını içerir.
 - **style.css**: Sayfa tasarımı, renkler, butonlar, mobil uyumluluk.
@@ -91,20 +91,33 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-🧰 Teknolojiler (#-teknolojiler)
-Teknoloji	Açıklama
-🧱 HTML5	Sayfa yapısı
-🎨 CSS3	Arayüz ve responsive tasarım
-⚙️ JavaScript (Vanilla)	Not hesaplama algoritması
-☁️ GitHub Pages	Canlı demo ve hosting hizmeti
+## 🛠 Teknolojiler
+
+<details>
+  <summary>Kullanılan Teknolojiler</summary>
+
+- **HTML5**: Kullanıcı arayüzü ve form yapısı için.
+- **CSS3**: Sayfa tasarımı, renkler, buton stilleri ve responsive tasarım için.
+- **JavaScript (ES6)**: Not hesaplama mantığı, form doğrulama ve sonuç gösterme işlemleri için.
+- **Git & GitHub**: Projeyi versiyon kontrol ile yönetmek ve GitHub Pages üzerinden canlı demo sunmak için.
+- **GitHub Pages**: Projeyi canlı olarak internet üzerinden erişilebilir hale getirmek için.
+
+</details>
 
 
+## 👨‍💻 Geliştirici
 
+<details>
+  <summary>Projenin Geliştiricisi</summary>
 
-🧑‍💻Geliştirici
-Geliştirici: R-a743
-Proje Adı: KBÜ Not Hesaplayıcı
-Canlı Demo: https://r-a743.github.io/not-hesaplama/
-GitHub: https://github.com/R-a743/not-hesaplama
+- **İsim:** R-A743  
+- **Rol:** Frontend Geliştirici  
+- **Sorumluluklar:**
+  - HTML, CSS ve JavaScript ile kullanıcı arayüzü ve not hesaplama mantığını geliştirmek
+  - Projeyi GitHub üzerinde versiyon kontrol ile yönetmek
+  - Canlı demo ve kullanım kılavuzu hazırlamak
+- **İletişim:** [GitHub Profilim](https://github.com/r-a743)
+
+</details>
 
 
