@@ -93,7 +93,7 @@ Başarı notu şu formül ile hesaplanır:
 
 ## 🛠 Teknolojiler
 
-<details>
+
  
 
 - **HTML5**: Kullanıcı arayüzü ve form yapısı için.
@@ -107,7 +107,7 @@ Başarı notu şu formül ile hesaplanır:
 
 ## 👨‍💻 Geliştirici
 
-<details>
+
  
 
 - **İsim:** R-A743  
