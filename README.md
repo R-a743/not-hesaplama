@@ -1,4 +1,4 @@
-# not-hesaplama# 🎓 KBÜ not hesaplayıcısı
+# KBÜ not-hesaplama# 
 
 
 
