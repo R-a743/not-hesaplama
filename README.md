@@ -94,7 +94,7 @@ Başarı notu şu formül ile hesaplanır:
 ## 🛠 Teknolojiler
 
 <details>
-  <summary>Kullanılan Teknolojiler</summary>
+ 
 
 - **HTML5**: Kullanıcı arayüzü ve form yapısı için.
 - **CSS3**: Sayfa tasarımı, renkler, buton stilleri ve responsive tasarım için.
@@ -108,14 +108,14 @@ Başarı notu şu formül ile hesaplanır:
 ## 👨‍💻 Geliştirici
 
 <details>
-  <summary>Projenin Geliştiricisi</summary>
+ 
 
 - **İsim:** R-A743  
-- **Rol:** Frontend Geliştirici  
+ 
 - **Sorumluluklar:**
   - HTML, CSS ve JavaScript ile kullanıcı arayüzü ve not hesaplama mantığını geliştirmek
   - Projeyi GitHub üzerinde versiyon kontrol ile yönetmek
-  - Canlı demo ve kullanım kılavuzu hazırlamak
+  - Canlı demo kullanmak
 - **İletişim:** [GitHub Profilim](https://github.com/r-a743)
 
 </details>
