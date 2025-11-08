@@ -74,18 +74,17 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-## 📂 Dosya Yapısı
 
 
 
-not-hesaplama/ 
-│
-├─ index.html <-- Ana HTML dosyası, kullanıcı arayüzü burada
-├─ style.css <-- Sayfa tasarımı ve stil ayarları
-├─ script.js <-- Not hesaplama mantığı burada
-├─ README.md <-- Proje açıklamaları ve kullanım rehberi
-└─ assets/ <-- (Opsiyonel) Görseller ve ek dosyalar
-└─ screenshot.png <-- Projenin ekran görüntüsü
+### Açıklamalar:
+
+- **index.html**: Kullanıcı arayüzü ve form elemanlarını içerir.
+- **style.css**: Sayfa tasarımı, renkler, butonlar, mobil uyumluluk.
+- **script.js**: Vize, yıl içi, final ve bütünleme notları hesaplama mantığı.
+- **README.md**: Proje açıklamaları, özellikler, kullanım ve canlı demo linki.
+- **assets/**: Görseller, ikonlar veya ekran görüntüleri gibi destekleyici dosyalar.
+</details>
 
 
 
