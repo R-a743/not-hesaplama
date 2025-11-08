@@ -54,5 +54,4 @@ Vize, yıl içi çalışma, final ve bütünleme notlarını girerek **başarı 
 
 Başarı notu aşağıdaki formüle göre hesaplanır:
 
-```text
-Başarı Notu = (Vize veya Yıl İçi) × 0.4 + (Final veya Bütünleme) × 0.6
+
