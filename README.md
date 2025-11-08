@@ -74,14 +74,14 @@ Başarı notu şu formül ile hesaplanır:
 
 
 
-not-hesaplama/          <-- Proje kök dizini
+not-hesaplama/ <-- Proje kök dizini
 │
-├─ index.html           <-- Ana HTML dosyası, kullanıcı arayüzü burada
-├─ style.css            <-- CSS dosyası, sayfa tasarımı ve stil ayarları
-├─ script.js            <-- JavaScript dosyası, not hesaplama mantığı burada
-├─ README.md            <-- Proje ile ilgili açıklamalar ve kullanım rehberi
-└─ assets/              <-- (Opsiyonel) Görseller, ikonlar veya ek dosyalar
-    └─ screenshot.png   <-- Projenin ekran görüntüsü
+├─ index.html <-- Ana HTML dosyası, kullanıcı arayüzü burada
+├─ style.css <-- Sayfa tasarımı ve stil ayarları
+├─ script.js <-- Not hesaplama mantığı burada
+├─ README.md <-- Proje açıklamaları ve kullanım rehberi
+└─ assets/ <-- (Opsiyonel) Görseller ve ek dosyalar
+└─ screenshot.png <-- Projenin ekran görüntüsü
 
 
 
