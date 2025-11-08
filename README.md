@@ -1,57 +1,100 @@
 # 🎓 KBÜ Not Hesaplayıcı
 
-![KBÜ Not Hesaplayıcı Kapak](https://raw.githubusercontent.com/R-a743/kbu-not-hesaplayici/main/preview.png)
+![Proje Kapak Görseli](https://r-a743.github.io/not-hesaplama/preview.png)
 
-**KBÜ Not Hesaplayıcı**, Karabük Üniversitesi öğrencileri için geliştirilen, not hesaplamayı kolaylaştıran modern bir web uygulamasıdır.  
-Vize, yıl içi çalışma, final ve bütünleme notlarını girerek **başarı notunu**, **harf notunu** ve **geçip geçmediğini** anında hesaplar.
+**KBÜ Not Hesaplayıcı**, Karabük Üniversitesi öğrencileri için hazırlanmış,  
+vize, yıl içi, final ve bütünleme notlarını kullanarak **başarı notu**, **harf notu**  
+ve **geçme durumunu** otomatik hesaplayan modern bir web uygulamasıdır.
+
+---
+
+## 🌐 Canlı Demo
+
+🔗 **Uygulamayı hemen dene:**  
+👉 [https://r-a743.github.io/not-hesaplama/](https://r-a743.github.io/not-hesaplama/)
 
 ---
 
 ## 📘 İçindekiler
 - [Özellikler](#-özellikler)
-- [Ekran Görüntüleri](#-ekran-görüntüleri)
+- [Ekran Görüntüsü](#-ekran-görüntüsü)
 - [Hesaplama Mantığı](#-hesaplama-mantığı)
-- [Kullanım](#-kullanım)
 - [Dosya Yapısı](#-dosya-yapısı)
-- [Canlı Demo](#-canlı-demo)
 - [Teknolojiler](#-teknolojiler)
-- [Katkıda Bulunma](#-katkıda-bulunma)
-- [Lisans](#-lisans)
 - [Geliştirici](#-geliştirici)
 
 ---
 
 ## 🚀 Özellikler
 
-- 🧮 **Otomatik Not Hesaplama:**  
-  Vize, yıl içi ve final/bütünleme notlarını gir; başarı notun anında hesaplanır.
-  
-- ⚙️ **KBÜ Harf Notu Sistemi:**  
-  Üniversitenin resmi sistemine göre A1’den F3’e kadar harf notu belirlenir.
+✅ **Otomatik Not Hesaplama:**  
+Girilen vize, yıl içi, final veya bütünleme notlarına göre anında hesaplama yapar.
 
-- 📉 **Durum Analizi:**  
-  Geçti/Kaldı durumu ve açıklama otomatik olarak gösterilir.
+✅ **KBÜ Harf Notu Sistemine Uygunluk:**  
+A1–F3 arasında doğru harf notunu verir.
 
-- 🚫 **Devamsızlık & Sınava Girmeme Durumu:**  
-  F1 (devamsız) ve F2 (sınava girmedi) kontrolü mevcuttur.
+✅ **Durum ve Açıklama Gösterimi:**  
+Geçti / Kaldı bilgisini ve nedenini (F1, F2, F3 vb.) açıklar.
 
-- 🧹 **Form Sıfırlama:**  
-  “Sıfırla” butonu ile tüm alanları temizle.
+✅ **Devamsızlık (F1) ve Sınava Girmeme (F2) Desteği:**  
+Sınava girmeyen veya derse devam etmeyen öğrenciler için özel durumlar.
 
-- 💻 **Mobil Uyumlu & Modern Tasarım:**  
-  Responsive arayüz ile tüm cihazlarda sorunsuz çalışır.
+✅ **Responsive Tasarım:**  
+Mobil, tablet ve bilgisayar ekranlarında mükemmel görünüm.
+
+✅ **Basit, Hızlı, Arayüz Odaklı Kullanım:**  
+Tek tıkla sonuç al, anında sıfırla ve tekrar hesapla.
 
 ---
 
-## 🖼️ Ekran Görüntüleri
+## 🖼️ Ekran Görüntüsü
 
-> Buraya bir ekran görüntüsü (örnek çıktı) ekleyebilirsin.  
-> Proje klasörüne `preview.png` adında bir resim koyarsan yukarıdaki görsel otomatik görünür.
+> `preview.png` adlı bir görseli proje klasörüne eklersen burada otomatik görüntülenir.  
+> Örneğin:
+>
+> ![Örnek Ekran Görüntüsü](https://r-a743.github.io/not-hesaplama/preview.png)
 
 ---
 
 ## 🧮 Hesaplama Mantığı
 
-Başarı notu aşağıdaki formüle göre hesaplanır:
+Başarı notu şu formül ile hesaplanır:
 
+
+Başarı Notu 
+= (Vize veya Yıl İçi) × 0.4 + (Final veya Bütünleme) × 0.6
+Harf Notu Dağılımı
+Başarı Notu	Harf Notu	Durum	Açıklama
+90 - 100	A1	Geçti	Mükemmel başarı
+80 - 89	A2	Geçti	Çok iyi
+70 - 79	B1	Geçti	İyi
+65 - 69	B2	Geçti	Orta
+60 - 64	C	Geçti	Yeterli
+< 60	F3	Kaldı	Başarı notu 60'ın altında
+Devamsız	F1	Kaldı	Devamsızlık nedeniyle başarısız
+Sınava girmedi	F2	Kaldı	Sınava katılmadı
+
+
+
+
+│
+DOSYA YAPISI
+├── index.html       # Ana HTML sayfası (form ve sonuç alanı)
+├── style.css        # Arayüz ve responsive tasarım dosyası
+├── script.js        # Hesaplama mantığı (JavaScript)
+└── README.md        # Proje açıklaması
+
+🧰 Teknolojiler
+Teknoloji	Açıklama
+🧱 HTML5	Sayfa yapısı
+🎨 CSS3	Arayüz ve responsive tasarım
+⚙️ JavaScript (Vanilla)	Not hesaplama algoritması
+☁️ GitHub Pages	Canlı demo ve hosting hizmeti
+
+
+🧑‍💻 Geliştirici
+Geliştirici: R-a743
+Proje Adı: KBÜ Not Hesaplayıcı
+Canlı Demo: https://r-a743.github.io/not-hesaplama/
+GitHub: https://github.com/R-a743/not-hesaplama
 
