@@ -76,8 +76,7 @@ Başarı notu şu formül ile hesaplanır:
 
 ## 📂 Dosya Yapısı
 
-<details>
-  <summary>Klasör ve Dosyalar</summary>
+
 
 not-hesaplama/ 
 │
