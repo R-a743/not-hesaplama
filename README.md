@@ -1,7 +1,6 @@
-# KBÜ not-hesaplama# 
+# 🎓 KBÜ Not Hesaplayıcı
 
-
-
+![KBÜ Not Hesaplayıcı Kapak](https://raw.githubusercontent.com/R-a743/kbu-not-hesaplayici/main/preview.png)
 
 **KBÜ Not Hesaplayıcı**, Karabük Üniversitesi öğrencileri için geliştirilen, not hesaplamayı kolaylaştıran modern bir web uygulamasıdır.  
 Vize, yıl içi çalışma, final ve bütünleme notlarını girerek **başarı notunu**, **harf notunu** ve **geçip geçmediğini** anında hesaplar.
@@ -42,23 +41,18 @@ Vize, yıl içi çalışma, final ve bütünleme notlarını girerek **başarı 
 - 💻 **Mobil Uyumlu & Modern Tasarım:**  
   Responsive arayüz ile tüm cihazlarda sorunsuz çalışır.
 
-| Başarı Notu    | Harf Notu | Durum | Açıklama             |
-| -------------- | --------- | ----- | -------------------- |
-| 90 - 100       | A1        | Geçti | Mükemmel başarı      |
-| 80 - 89        | A2        | Geçti | Çok iyi              |
-| 70 - 79        | B1        | Geçti | İyi                  |
-| 65 - 69        | B2        | Geçti | Orta-iyi             |
-| 60 - 64        | C         | Geçti | Yeterli              |
-| < 60           | F3        | Kaldı | Başarı notu yetersiz |
-| Devamsız       | F1        | Kaldı | Derse devam etmedi   |
-| Sınava Girmedi | F2        | Kaldı | Sınava katılmadı     |
+---
 
-kbu-not-hesaplayici/
-│
-├── index.html       # Ana sayfa (form + sonuç kartı)
-├── style.css        # Görsel tasarım dosyası
-├── script.js        # Hesaplama mantığı (JavaScript)
-└── README.md        # Proje açıklaması (bu dosya)
+## 🖼️ Ekran Görüntüleri
 
+> Buraya bir ekran görüntüsü (örnek çıktı) ekleyebilirsin.  
+> Proje klasörüne `preview.png` adında bir resim koyarsan yukarıdaki görsel otomatik görünür.
 
+---
 
+## 🧮 Hesaplama Mantığı
+
+Başarı notu aşağıdaki formüle göre hesaplanır:
+
+```text
+Başarı Notu = (Vize veya Yıl İçi) × 0.4 + (Final veya Bütünleme) × 0.6
