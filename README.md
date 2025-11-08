@@ -50,10 +50,9 @@ Tek tıkla sonuç al, anında sıfırla ve tekrar hesapla.
 
 ## 🖼️ Ekran Görüntüsü
 
-> `preview.png` adlı bir görseli proje klasörüne eklersen burada otomatik görüntülenir.  
-> Örneğin:
->
-> ![Örnek Ekran Görüntüsü](https://r-a743.github.io/not-hesaplama/preview.png)
+> ![Örnek Ekran Görüntüsü]
+<img width="1919" height="910" alt="Ekran görüntüsü 2025-11-08 212231" src="https://github.com/user-attachments/assets/143dc32d-51be-4572-baff-e6aaf6fea31e" />
+
 
 ---
 
@@ -93,7 +92,9 @@ Teknoloji	Açıklama
 ☁️ GitHub Pages	Canlı demo ve hosting hizmeti
 
 
-🧑‍💻 Geliştirici
+
+
+🧑‍💻 #-geliştirici
 Geliştirici: R-a743
 Proje Adı: KBÜ Not Hesaplayıcı
 Canlı Demo: https://r-a743.github.io/not-hesaplama/
