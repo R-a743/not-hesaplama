@@ -1,6 +1,7 @@
 # 🎓 KBÜ Not Hesaplayıcı
 
-![Proje Kapak Görseli](https://r-a743.github.io/not-hesaplama/preview.png)
+![Proje Kapak Görseli]<img width="1919" height="910" alt="Ekran görüntüsü 2025-11-08 212231" src="https://github.com/user-attachments/assets/b40b1b1a-2b4d-4da0-a624-d6b3ce72be23" />
+
 
 **KBÜ Not Hesaplayıcı**, Karabük Üniversitesi öğrencileri için hazırlanmış,  
 vize, yıl içi, final ve bütünleme notlarını kullanarak **başarı notu**, **harf notu**  
