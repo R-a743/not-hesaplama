@@ -1,6 +1,7 @@
-# not-hesaplama# 🎓 KBÜ Not Hesaplayıcı
+# not-hesaplama# 🎓 KBÜ not hesaplayıcısı
 
-![KBÜ Not Hesaplayıcı Kapak](https://raw.githubusercontent.com/R-a743/kbu-not-hesaplayici/main/preview.png)
+
+
 
 **KBÜ Not Hesaplayıcı**, Karabük Üniversitesi öğrencileri için geliştirilen, not hesaplamayı kolaylaştıran modern bir web uygulamasıdır.  
 Vize, yıl içi çalışma, final ve bütünleme notlarını girerek **başarı notunu**, **harf notunu** ve **geçip geçmediğini** anında hesaplar.
